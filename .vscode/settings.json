@@ -1,0 +1,23 @@
+{
+	// <Tab> 키를 누를 때 공백을 삽입합니다. `editor.detectIndentation`이 켜져 있는 경우 이 설정은 파일 콘텐츠에 따라 재정의됩니다.
+	"editor.insertSpaces": false,
+	// 파일을 열면 파일 콘텐츠를 기반으로 하여 'editor.tabSize'와 'editor.insertSpaces'가 검색됩니다.
+	"editor.detectIndentation": false,
+	// 검색에서 파일 및 폴더를 제외하도록 GLOB 패턴을 구성합니다. files.exclude 설정에서 모든 GLOB 패턴을 상속합니다.
+	"search.exclude": {
+		"**/node_modules": true,
+		"**/bower_components": true
+	},
+	"favorites.resources": [
+		"ios/mobilegw/AppDelegate.m",
+		"android/gradle.properties",
+		"android/app/build.gradle",
+		"~/.android/adb_usb.ini",
+		"android/app/src/main/AndroidManifest.xml",
+		"android/app/src/main/res/values/strings.xml",
+		"ios/mobilegw/Info.plist",
+		"android/settings.gradle",
+		"node_modules/react-native-share-file",
+		"node_modules/react-native-image-view"
+	]
+}
